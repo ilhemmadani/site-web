@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+
+<html >
+
+<head>
+	<style type="text/css">
+@import url(perla.css);
+
+</style>
+
+	 <ul id="menu">
+        <li style="float:right"><a href="contact.html">Contact</a></li>
+        <li  style="float:right">
+                <a href="#">Services</a>
+                <ul>
+                        <li><a href="cartes visites.html">Cartes visites</a></li>
+                        <li><a href="brochures.html">Brochures</a></li>
+                        <li><a href="enseignes.html">Enseignes</a></li>
+                       
+                </ul>
+        </li>
+        <li style="float:right"><a href="acceuil.html">Acceuil</a></li>
+       
+</ul>
+    
+
+<style>
+body,html { height:100% ; width :100% ;}
+.div1{background-image:url("k.jpg"); height:40%; width:25%;  position:absolute ; top:20%;}
+.div2{background-image:url("k1.jpg"); height:40%; width:25%;  position:absolute ;right:5%; top:35%;}
+.div3{background-image:url("k2.jpg");height:40%; width:25%; position:absolute ;top:50%;left:35%;}
+</style>
+
+   <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body class="bo">
+<div  class="div1"></div>
+<div class="div2"></div>
+<div class="div3" ></div>
+</body>
+<script>
+$(document).ready(function(){ $('.div1').hover( function(){ $('body').css("background-image","url('k.jpg')","background-position","no-repeat");});
+$('.div2').hover( function(){ $('body').css("background-image","url('k1.jpg')","background-position","no-repeat");});
+$('.div3').hover( function(){ $('body').css("background-image","url('k2.jpg')","background-position","no-repeat");});
+}) ;
+</script>
+</html>

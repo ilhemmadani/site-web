@@ -1,0 +1,260 @@
+header .search-bar{
+	padding-top: 39px;
+	position: absolute;
+	top:2%;
+	left:27%;
+	width:70%;
+	
+
+		margin-top: 5%;
+		
+}
+body{margin:0px;
+    padding:0px;}
+#menu{
+        width: 100%;
+        margin: 0;
+        padding: 0px 100px 0 0;
+        list-style: none;
+        background: black;
+        
+       
+        -moz-border-radius: 50px;
+      
+        -moz-box-shadow: 0 2px 1px #9c9c9c;
+        -webkit-box-shadow: 0 2px 1px #9c9c9c;
+        box-shadow: 0 2px 1px #9c9c9c;
+}
+
+#menu li{
+        float: left;
+        padding: 0 170px 10px 0;
+        position: relative;
+        
+}
+
+#menu a{
+        float: left;
+        height: 25px;
+        padding: 0 25px;
+        color: #999;
+        text-transform: uppercase;
+        font: bold 12px/25px Arial, Helvetica;
+        text-decoration: none;
+        text-shadow: 0 1px 0 #000;
+        font-size: 1em;
+}
+#menu li:hover > a{
+        color: #fafafa;
+         background: gray;
+
+}
+
+*html #menu li a:hover{ /* IE6 */
+        color: #fafafa;
+        background: gray;
+          height:100px;
+}
+
+#menu li:hover > ul{
+        display: block;
+}
+
+
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: 99999;
+    background: black;
+    
+    
+}
+
+#menu ul li{
+    float: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    -moz-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    -webkit-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+}
+
+#menu ul li:last-child{
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#menu ul a{
+    padding: 10px;
+    height: auto;
+    line-height: 1;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+
+*html #menu ul a{ /* IE6 */
+        height: 10px;
+        width: 150px;
+}
+
+*:first-child+html #menu ul a{ /* IE7 */
+        height: 10px;
+        width: 300px;
+}
+
+#menu ul a:hover{
+        background: #0186ba;
+        background: -moz-linear-gradient(#04acec,  #0186ba);
+        background: -webkit-gradient(linear, left top, left bottom, from(#04acec), to(#0186ba));
+        background: -webkit-linear-gradient(#04acec,  #0186ba);
+        background: -o-linear-gradient(#04acec,  #0186ba);
+        background: -ms-linear-gradient(#04acec,  #0186ba);
+        background: linear-gradient(#04acec,  #0186ba);
+}
+
+
+
+#menu ul li:first-child a:after{
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid #444;
+}
+
+#menu ul li:first-child a:hover:after{
+    border-bottom-color: #04acec;
+}
+
+#menu ul li:last-child a{
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Rétablissement du flottement */
+#menu:after{
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+}
+
+
+
+#menu ul li:first-child a:after{
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+  
+}
+
+#menu ul li:first-child a:hover:after{
+    border-bottom-color: #04acec;
+ 
+}
+
+   
+		
+
+
+ 
+body {
+ 
+align-items: horizontal;
+  justify-content: horizontal;
+background: linear-gradient(#333, #111);
+}
+#img{
+width:1000px;
+height:300;
+}
+
+
+ 
+ 
+.badge:hover {
+  box-shadow: 0px 0.5rem 0rem rgba(0, 0, 0, 0);
+  background-position: 0% 0%;
+}
+.badge:hover .text {
+	 background-position: 0 0;
+  position: center;
+  -webkit-transform: rotate(-85deg) translate(50px);
+          transform: rotate(-45deg) translate(50px) ;
+      
+  background: rgba(50, 51, 153, 0.5);
+  width: 100%;
+  letter-spacing: 1rem;
+  line-height: 20rem;
+  height: 40rem;
+  transition: all 0.5s cubic-bezier(1, 1, 0.5, 1), letter-spacing 2s ease-out;
+   font-size:5.9em;
+   color: white; 
+   padding-top:120px;
+    padding-left:300px;
+}
+.badge .text {
+  position:center;
+  display: inline;
+   position: absolute;
+  width: 40rem;
+  height: 60rem;
+  line-height: 10rem;
+  left: 32%;
+  top: 50%;
+  margin-top: -10rem;
+  margin-left: -15rem;
+  font-size: 4rem;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  color:black;
+  border-radius:100%;
+ 
+  -webkit-transform: rotate(-180deg) translate(-10rem) rotate(180deg);
+   transform: rotate(-180deg) translate(-10rem) rotate(180deg);
+   transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+}
+#lg{width:200px;
+height:200px;
+float:left;
+float:top;
+}
+.f{float:right;
+color:white;
+display: block;
+list-style: none;
+padding-right:50px; 
+ }
+.c{color:white;}
+.i{
+background: white;
+}
+.m{width:600px;
+  display:inline;
+height:50px;}
+  .b{
+    margin:0;
+    padding:0;
+}

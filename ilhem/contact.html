@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style type="text/css">
+@import url(perla.css);
+
+</style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.slim.min.js" ></script>
+    <script src="js/popper.min.js" ></script>
+    <script src="js/bootstrap.min.js" ></script>
+   
+  </head>
+  <body>
+    <ul id="menu">
+        <li style="float:right"><a href="contact.html">Contact</a></li>
+        <li  style="float:right">
+                <a href="#">Services</a>
+                <ul>
+                        <li><a href="cartes visites.html">Cartes visites</a></li>
+                        <li><a href="brochures.html">Brochures</a></li>
+                        <li><a href="enseignes.html">Enseignes</a></li>
+                       
+                </ul>
+        </li>
+        <li style="float:right"><a href="acceuil.html">Acceuil</a></li>
+       
+</ul>
+   
+	
+		  <!--end nav-->
+	
+    
+     <!--end header -->
+     <!--begin content -->
+ <div  class ="container">
+	 <div class="row"> 
+	<div class="col-xl-12">
+	<h3 class="c">contactez nous ! </h3>
+	 </hr>
+	<div class="form-group">
+    <label for="serv">services</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>cartes visites</option>
+      <option>brochures</option>
+      <option>enseignes</option>
+     
+    </select>
+  </div>
+      
+    </select>
+	<div id="demo" class="carousel slide" data-ride="carousel">
+<form class="needs-validation" novalidate>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom01">nom</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="nom" value="nom" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">prenom</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="prenom" value="prenom" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustomUsername">email</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+        </div>
+        <input type="text" class="form-control" id="validationCustomUsername" placeholder="email" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please choose a email
+        </div>
+      </div>
+    </div>
+  </div></br>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">mobil</label>
+      <input type="text" class="form-control" id="validationCustom03" placeholder="mobil" required>
+      <div class="invalid-feedback">
+        Please provide a mobil.
+      </div>
+    </div></br>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom04">objet</label>
+      <input type="text" class="form-control" id="validationCustom04" placeholder="objet" required>
+      <div class="invalid-feedback">
+        Please provide a objet
+      </div>
+    </div></br>
+    
+  
+  
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div></br>
+  
+ 
+  <label for="exampleFormControlTextarea1" placeholder="messages" class="c">messages:</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea></br><ul class="f">   <li ><img class="i" src="call.png"/>     21 251 386 /55 588 261</li></br>
+   <li ><img  class="i" src="address.png">      Av.disrnsaire immeuble zarra en face lycèe technique</li></br>
+    <li><img class="i"src="mail.png"/ >     rsconcept@outlook.fr</li></ul>
+ 
+ 
+
+	<div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="c" class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label></div>
+  
+  
+ 
+ 
+  <button class="btn btn-primary" type="submit">envoyer</button>
+ 
+</form>
+
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+  <!-- Indicators -->
+  
+	
+	 
+	 </div>
+	 <!--end content --><hr>
+	 <!--begin footer -->
+	   
+   <!--end footer -->
+  
+
+   
+  </body>
+</html>
